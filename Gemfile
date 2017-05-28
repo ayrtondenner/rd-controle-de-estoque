@@ -38,6 +38,14 @@ gem 'jbuilder', '~> 2.5'
 gem 'bootstrap-sass', '~> 3.2.0'
 gem 'autoprefixer-rails'
 
+# Bootstrap-generators provides Twitter Bootstrap generators for Rails - https://github.com/decioferreira/bootstrap-generators
+gem 'bootstrap-generators', '~> 3.3.4'
+
+gem 'record_tag_helper', '~> 1.0'
+
+# https://github.com/doabit/bootstrap-sass-extras
+#gem 'bootstrap-sass-extras'
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
