@@ -1,29 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f0cdcfc4-2ff0-4374-a59b-aaf015869bb6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/main/index.html.erb" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/login.erb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/front-end/WebContent/META-INF/MANIFEST.MF" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/front-end/WebContent/WEB-INF/web.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/front-end/WebContent/pages/chapeu.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/front-end/WebContent/pages/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/front-end/WebContent/pages/login.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/front-end/WebContent/pages/style.css" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/front-end/WebContent/pages/Fornecedores.jpg" afterPath="$PROJECT_DIR$/app/assets/images/Fornecedores.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/front-end/WebContent/pages/cliente.png" afterPath="$PROJECT_DIR$/app/assets/images/cliente.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/front-end/WebContent/pages/fornecedor.png" afterPath="$PROJECT_DIR$/app/assets/images/produtos 3.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/front-end/WebContent/pages/funcionarios.png" afterPath="$PROJECT_DIR$/app/assets/images/funcionarios.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/front-end/WebContent/pages/magic.png" afterPath="$PROJECT_DIR$/app/assets/images/magic.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/front-end/WebContent/pages/produtos 1.png" afterPath="$PROJECT_DIR$/app/assets/images/produtos 1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/front-end/WebContent/pages/produtos 2.png" afterPath="$PROJECT_DIR$/app/assets/images/produtos 2.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/front-end/WebContent/pages/produtos.png" afterPath="$PROJECT_DIR$/app/assets/images/produtos 4.png" />
+    <list default="true" id="f0cdcfc4-2ff0-4374-a59b-aaf015869bb6" name="Default" comment="Remoção do botão &quot;Cadastro&quot;">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/scaffolds.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/scaffolds.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/main_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/main_controller.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/main/login.html.erb" afterPath="$PROJECT_DIR$/app/views/main/login.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -48,11 +28,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login.html.erb" pinned="false" current-in-tab="true">
+      <file leaf-file-name="login.html.erb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/main/login.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-172">
-              <caret line="32" column="50" lean-forward="true" selection-start-line="32" selection-start-column="50" selection-end-line="32" selection-end-column="50" />
+            <state relative-caret-position="462">
+              <caret line="52" column="0" lean-forward="true" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -63,7 +43,7 @@
       <file leaf-file-name="index.html.erb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/main/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="202">
+            <state relative-caret-position="442">
               <caret line="65" column="51" lean-forward="true" selection-start-line="65" selection-start-column="51" selection-end-line="65" selection-end-column="51" />
               <folding />
             </state>
@@ -90,11 +70,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.html.erb" pinned="false" current-in-tab="false">
+      <file leaf-file-name="application.html.erb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="29" column="61" lean-forward="false" selection-start-line="29" selection-start-column="61" selection-end-line="29" selection-end-column="61" />
+            <state relative-caret-position="390">
+              <caret line="35" column="57" lean-forward="false" selection-start-line="35" selection-start-column="57" selection-end-line="35" selection-end-column="57" />
               <folding />
             </state>
           </provider>
@@ -121,8 +101,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>Abo</find>
-      <find>About</find>
       <find>route</find>
       <find>link_path</find>
       <find>supp</find>
@@ -151,6 +129,8 @@
       <find>nome de</find>
       <find>nome</find>
       <find>RD Con</find>
+      <find>Cadast</find>
+      <find>md-3</find>
     </findStrings>
     <replaceStrings>
       <replace>post</replace>
@@ -190,11 +170,11 @@
         <option value="$PROJECT_DIR$/app/views/pedidos/show.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/main_controller.rb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/scaffolds.scss" />
-        <option value="$PROJECT_DIR$/app/views/main/login.html.erb" />
         <option value="$PROJECT_DIR$/app/views/pedidos/index.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/views/main/index.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/main/login.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
       </list>
     </option>
   </component>
@@ -992,7 +972,7 @@
       <workItem from="1495765394707" duration="2767000" />
       <workItem from="1495913171450" duration="1171000" />
       <workItem from="1495920137924" duration="29382000" />
-      <workItem from="1496030539124" duration="2488000" />
+      <workItem from="1496030539124" duration="3398000" />
     </task>
     <task id="LOCAL-00001" summary="Commit de adição do Bootstrap com SASS, além de teste de integração com o Heroku.">
       <created>1495768074273</created>
@@ -1008,11 +988,18 @@
       <option name="project" value="LOCAL" />
       <updated>1496006319911</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Pasta front-end deletada, com arquivos sendo movidos para suas respectivas pastas no projeto (imagens e html), alteração no css do scaffold para remover bug de links já visitados, adição de actions de login e index no sistema e nas rotas, além de acomodar as telas do sistema para uma melhor interface.">
+      <created>1496033184399</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1496033184400</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37713000" />
+    <option name="totallyTimeSpent" value="38623000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -1056,7 +1043,8 @@
     <MESSAGE value="Commit inicial de criação do projeto." />
     <MESSAGE value="Commit de adição do Bootstrap com SASS, além de teste de integração com o Heroku." />
     <MESSAGE value="Configuração do Bootstrap com Sass e gems para generators, adição de inflection para nomenclatura de fornecedor, edição de rotas para página padrão (futuramente adicionar tela de login), além de adição das classes Cliente, Fornecedor, Produto e Pedido junto com seus relacionamentos no schema do banco de dados, assim como também a criação de suas respectivas telas de criação, exibição e edição." />
-    <option name="LAST_COMMIT_MESSAGE" value="Configuração do Bootstrap com Sass e gems para generators, adição de inflection para nomenclatura de fornecedor, edição de rotas para página padrão (futuramente adicionar tela de login), além de adição das classes Cliente, Fornecedor, Produto e Pedido junto com seus relacionamentos no schema do banco de dados, assim como também a criação de suas respectivas telas de criação, exibição e edição." />
+    <MESSAGE value="Pasta front-end deletada, com arquivos sendo movidos para suas respectivas pastas no projeto (imagens e html), alteração no css do scaffold para remover bug de links já visitados, adição de actions de login e index no sistema e nas rotas, além de acomodar as telas do sistema para uma melhor interface." />
+    <option name="LAST_COMMIT_MESSAGE" value="Pasta front-end deletada, com arquivos sendo movidos para suas respectivas pastas no projeto (imagens e html), alteração no css do scaffold para remover bug de links já visitados, adição de actions de login e index no sistema e nas rotas, além de acomodar as telas do sistema para uma melhor interface." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1356,14 +1344,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="29" column="61" lean-forward="false" selection-start-line="29" selection-start-column="61" selection-end-line="29" selection-end-column="61" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/routes.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="20">
@@ -1393,21 +1373,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/main/login.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="52" column="0" lean-forward="true" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/main/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
+        <state relative-caret-position="442">
           <caret line="65" column="51" lean-forward="true" selection-start-line="65" selection-start-column="51" selection-end-line="65" selection-end-column="51" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/main/login.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-172">
-          <caret line="32" column="50" lean-forward="true" selection-start-line="32" selection-start-column="50" selection-end-line="32" selection-end-column="50" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="390">
+          <caret line="35" column="57" lean-forward="false" selection-start-line="35" selection-start-column="57" selection-end-line="35" selection-end-column="57" />
+          <folding />
         </state>
       </provider>
     </entry>
