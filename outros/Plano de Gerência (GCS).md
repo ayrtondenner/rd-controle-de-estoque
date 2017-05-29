@@ -25,7 +25,7 @@ Este plano tem como objetivo promover uma gerência de nível G para o projeto d
 
 `.md                     .ru                      .lock`
 
-`.gitignore              .json                    `
+`.gitignore              .json                    .mf`
 
 #### Disposição das pastas e organização dos arquivos
 ![pastas](http://i.imgur.com/PP2Lhnm.jpg)
