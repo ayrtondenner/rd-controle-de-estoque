@@ -27,7 +27,7 @@ Este plano tem como objetivo promover uma gerência de nível G para o projeto d
 
 `.gitignore              .json                    .mf`
 
-`.jsbuild                                             `
+`.jsbuild                .sass                    .scss`
 
 #### Disposição das pastas e organização dos arquivos
 ![pastas](http://i.imgur.com/QzaBucf.jpg)
@@ -40,4 +40,4 @@ Este plano tem como objetivo promover uma gerência de nível G para o projeto d
 
 > Controle de Releases: Não há public-release ainda.
 
-> Última revisão do plano: 31/05/2017
+> Última revisão do plano: 01/06/2017
