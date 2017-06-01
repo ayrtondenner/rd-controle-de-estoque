@@ -27,15 +27,17 @@ Este plano tem como objetivo promover uma gerência de nível G para o projeto d
 
 `.gitignore              .json                    .mf`
 
+`.jsbuild                                             `
+
 #### Disposição das pastas e organização dos arquivos
-![pastas](http://i.imgur.com/PP2Lhnm.jpg)
+![pastas](http://i.imgur.com/QzaBucf.jpg)
 > * As pastas e arquivos subsequentes glosadas em cor roxa são de competência dedicada para os artefatos Back-End
-> * O arquivo readme.md serve como cartão visita do repositório do produto
+> * O arquivo readme.md, que deveria servir como cartão visita do repositório do produto, fora modificado por preceitos pré-definidos pela implementação/adaptação do projeto pela plataforma rails, contendo agora um rápido wizard para algumas manipulações possíveis dentro da realidade da programação em ruby
 > * A pasta glosada de cor verde é de competência aos arquivos projectuais/de concepção (a exemplificar este plano GCS, assim como diagramas e outras explicações do *modus operandi* do produto e de como fazê-lo)
-> * A pasta glosada de cor vermelha é de competência dedicada aos artefatos gerados para a interface com o usuário, isto é, o Front-End
+> * A pasta glosada de cor azul é de competência dedicada aos artefatos gerados para a interface com o usuário, isto é, o Front-End
 #### Versionamento
 > Modelo de commit: setfree (critério de explicação no corpo do commit disponível, caso necessário)
 
 > Controle de Releases: Não há public-release ainda.
 
-> Última revisão do plano: 23/05/2017
+> Última revisão do plano: 31/05/2017
