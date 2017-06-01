@@ -1,20 +1,20 @@
 <div class="page-header">
   <%= link_to fornecedores_path, class: 'btn btn-default' do %>
     <span class="glyphicon glyphicon-list-alt"></span>
-    Back
+    Voltar
   <% end %>
   <%= link_to edit_fornecedor_path(@fornecedor), class: 'btn btn-primary' do %>
     <span class="glyphicon glyphicon-pencil"></span>
-    Edit
+    Editar
   <% end %>
-  <h1>Show fornecedor</h1>
+  <h1>Exibir fornecedor</h1>
 </div>
 
 <dl class="dl-horizontal">
-  <dt>Codigo:</dt>
+  <dt>Código:</dt>
   <dd><%= @fornecedor.codigo %></dd>
 
-  <dt>Razaosocial:</dt>
+  <dt>Razão social:</dt>
   <dd><%= @fornecedor.razaoSocial %></dd>
 
   <dt>Cnpj:</dt>
