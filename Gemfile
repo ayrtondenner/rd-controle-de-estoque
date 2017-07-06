@@ -43,6 +43,9 @@ gem 'bootstrap-generators', '~> 3.3.4'
 
 gem 'record_tag_helper', '~> 1.0'
 
+# Use jquery as the JavaScript library
+gem 'jquery-rails'
+
 # https://github.com/doabit/bootstrap-sass-extras
 #gem 'bootstrap-sass-extras'
 

@@ -26,7 +26,7 @@
             <td><%= fornecedor.cnpj %></td>
             <td><%= link_to 'Exibir', fornecedor %></td>
         <td><%= link_to 'Editar', edit_fornecedor_path(fornecedor) %></td>
-        <td>Deletar</td>
+        <td><%= link_to 'Deletar', fornecedor, method: :delete, data: { confirm: 'Tem certeza disso?' } %></td>
       <% end %>
     </tbody>
   </table>

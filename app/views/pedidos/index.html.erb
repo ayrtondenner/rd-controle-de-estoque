@@ -24,7 +24,7 @@
             <td><%= pedido.cliente.razaoSocial %></td>
             <td><%= link_to 'Exibir', pedido %></td>
         <td><%= link_to 'Editar', edit_pedido_path(pedido) %></td>
-        <td>Deletar</td>
+        <td><%= link_to 'Deletar', pedido, method: :delete, data: { confirm: 'Tem certeza disso?' } %></td>
       <% end %>
     </tbody>
   </table>
