@@ -19,33 +19,34 @@
           <div class="col-sm-10">
             <div class="panel panel-default">
               <div class="well" id="usuarioWell">Informe seus dados</div>
+              <label id="warningLabel" style="margin-left: 10px;"></label>
 
               <div class="row">
 
                 <div class="col-md-3">
                   <div class="well well-sm">
-                    <form onsubmit="return login">
+                    <!--<form onsubmit="return login">-->
                       <div class="form-group">
                         <br>
                         <select  class="form-control" name ="sexo" required>
-                          <option value="" selected disabled>Selecione Vínculo</option>
+                          <!--<option value="" selected disabled>Selecione Vínculo</option>-->
                           <option value="funcionário">Funcionário</option>
                           <option value="suporte">Suporte</option>
                         </select>
                       </div>
                       <div class="form-group">
                         <option value="" selected disabled>Nome de Usuário</option>
-                        <input type="charset" class="form-control" name="user" required>
+                        <input type="charset" class="form-control" id="user_field" name="user" required>
                       </div>
 
                       <div class="form-group">
                         <option value="" selected disabled>Digite sua Senha</option>
-                        <input type="password" class="form-control" name="passcode" required>
+                        <input type="password" class="form-control" id="password_field" name="passcode" required>
                       </div>
 
-                      <%= link_to("Login", main_index_path, type: "button", class:"btn btn-primary btn-block") %>
+                      <%= button_tag("Login", id: "login_button", class: "btn btn-primary btn-block") %>
+                      <!--<%= link_to("Login", main_index_path, type: "button", class: "btn btn-primary btn-block") %>-->
 
-                    </form>
                   </div>
                 </div>
               </div>
