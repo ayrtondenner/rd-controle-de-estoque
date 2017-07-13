@@ -1,31 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f0cdcfc4-2ff0-4374-a59b-aaf015869bb6" name="Default" comment="Aviso em processo de login">
+    <list default="true" id="f0cdcfc4-2ff0-4374-a59b-aaf015869bb6" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/main_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/main_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/pedidos_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/pedidos_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/produtos_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/produtos_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/fornecedor.rb" afterPath="$PROJECT_DIR$/app/models/fornecedor.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/pedido.rb" afterPath="$PROJECT_DIR$/app/models/pedido.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/pedidos/_form.html.erb" afterPath="$PROJECT_DIR$/app/views/pedidos/_form.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/pedidos/_pedido.json.jbuilder" afterPath="$PROJECT_DIR$/app/views/pedidos/_pedido.json.jbuilder" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/pedidos/edit.html.erb" afterPath="$PROJECT_DIR$/app/views/pedidos/edit.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/pedidos/index.html.erb" afterPath="$PROJECT_DIR$/app/views/pedidos/index.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/pedidos/new.html.erb" afterPath="$PROJECT_DIR$/app/views/pedidos/new.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/pedidos/show.html.erb" afterPath="$PROJECT_DIR$/app/views/pedidos/show.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/produtos/_form.html.erb" afterPath="$PROJECT_DIR$/app/views/produtos/_form.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/produtos/_produto.json.jbuilder" afterPath="$PROJECT_DIR$/app/views/produtos/_produto.json.jbuilder" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/produtos/index.html.erb" afterPath="$PROJECT_DIR$/app/views/produtos/index.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/produtos/show.html.erb" afterPath="$PROJECT_DIR$/app/views/produtos/show.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/initializers/database_initializer.rb" afterPath="$PROJECT_DIR$/config/initializers/database_initializer.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/migrate/20170528163030_create_fornecedores.rb" afterPath="$PROJECT_DIR$/db/migrate/20170528163030_create_fornecedores.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/migrate/20170528163111_create_produtos.rb" afterPath="$PROJECT_DIR$/db/migrate/20170528163111_create_produtos.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/migrate/20170528204604_create_pedidos.rb" afterPath="$PROJECT_DIR$/db/migrate/20170528204604_create_pedidos.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/controllers/pedidos_controller_test.rb" afterPath="$PROJECT_DIR$/test/controllers/pedidos_controller_test.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/fixtures/pedidos.yml" afterPath="$PROJECT_DIR$/test/fixtures/pedidos.yml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -92,21 +70,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="database_initializer.rb" pinned="false" current-in-tab="false">
+      <file leaf-file-name="database_initializer.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config/initializers/database_initializer.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="80">
-              <caret line="4" column="5" lean-forward="true" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+              <caret line="4" column="3" lean-forward="true" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html.erb" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html.erb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/pedidos/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="185">
-              <caret line="17" column="15" lean-forward="false" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="15" />
+            <state relative-caret-position="245">
+              <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -253,8 +231,8 @@
         <option value="$PROJECT_DIR$/app/views/pedidos/new.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/produtos_controller.rb" />
         <option value="$PROJECT_DIR$/app/controllers/pedidos_controller.rb" />
-        <option value="$PROJECT_DIR$/config/initializers/database_initializer.rb" />
         <option value="$PROJECT_DIR$/app/views/pedidos/index.html.erb" />
+        <option value="$PROJECT_DIR$/config/initializers/database_initializer.rb" />
       </list>
     </option>
   </component>
@@ -1076,11 +1054,18 @@
       <option name="project" value="LOCAL" />
       <updated>1499925104859</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Alterações, tanto no schema do banco de dados como nos controllers e na organização das telas, da propriedade de produtos e de itens de produtos nos pedidos, tratando a subtração da mesma.">
+      <created>1499980155974</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1499980155974</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="85684000" />
+    <option name="totallyTimeSpent" value="86006000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -1142,7 +1127,8 @@
     <MESSAGE value="Correção para o Heroku." />
     <MESSAGE value="Correção para o Heroku da classe Accounts." />
     <MESSAGE value="Aviso em processo de login" />
-    <option name="LAST_COMMIT_MESSAGE" value="Aviso em processo de login" />
+    <MESSAGE value="Alterações, tanto no schema do banco de dados como nos controllers e na organização das telas, da propriedade de produtos e de itens de produtos nos pedidos, tratando a subtração da mesma." />
+    <option name="LAST_COMMIT_MESSAGE" value="Alterações, tanto no schema do banco de dados como nos controllers e na organização das telas, da propriedade de produtos e de itens de produtos nos pedidos, tratando a subtração da mesma." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1571,18 +1557,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/initializers/database_initializer.rb">
+    <entry file="file://$PROJECT_DIR$/app/views/pedidos/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" column="5" lean-forward="true" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+        <state relative-caret-position="245">
+          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/pedidos/index.html.erb">
+    <entry file="file://$PROJECT_DIR$/config/initializers/database_initializer.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="17" column="15" lean-forward="false" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="15" />
+        <state relative-caret-position="80">
+          <caret line="4" column="3" lean-forward="true" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
           <folding />
         </state>
       </provider>
