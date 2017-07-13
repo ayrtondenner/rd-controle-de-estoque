@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f0cdcfc4-2ff0-4374-a59b-aaf015869bb6" name="Default" comment="Correção no login do sistema, que verifica se a conta existe antes de redirecionar para a tela inicial, ou informa que a conta não foi encontrada, além de adição de validação de campo vazio na tela de login; configuração para criar usuário &quot;admin&quot; caso o mesmo não exista na base ao iniciar o sistema.">
+    <list default="true" id="f0cdcfc4-2ff0-4374-a59b-aaf015869bb6" name="Default" comment="Correção para o Heroku.">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/initializers/database_initializer.rb" afterPath="$PROJECT_DIR$/config/initializers/database_initializer.rb" />
     </list>
@@ -924,7 +924,7 @@
       <workItem from="1495920137924" duration="29382000" />
       <workItem from="1496030539124" duration="13431000" />
       <workItem from="1499364092614" duration="8255000" />
-      <workItem from="1499892924246" duration="13638000" />
+      <workItem from="1499892924246" duration="13739000" />
     </task>
     <task id="LOCAL-00001" summary="Commit de adição do Bootstrap com SASS, além de teste de integração com o Heroku.">
       <created>1495768074273</created>
@@ -975,11 +975,18 @@
       <option name="project" value="LOCAL" />
       <updated>1499923376815</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Correção para o Heroku.">
+      <created>1499924631285</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1499924631285</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70549000" />
+    <option name="totallyTimeSpent" value="70650000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -1028,7 +1035,8 @@
     <MESSAGE value="Tradução de nomes e textos das labels do inglẽs para o português, além de correção do título da aplicação." />
     <MESSAGE value="Adição do jquery para o projeto, tratamento para não exibir mais a barra superior na tela de login, adição de tabela com resumo dos dados do banco na tela inicial, além de adição das funcionalidades de cadastro, atualização, visualização e remoção de dados para todos os objetos do projeto." />
     <MESSAGE value="Correção no login do sistema, que verifica se a conta existe antes de redirecionar para a tela inicial, ou informa que a conta não foi encontrada, além de adição de validação de campo vazio na tela de login; configuração para criar usuário &quot;admin&quot; caso o mesmo não exista na base ao iniciar o sistema." />
-    <option name="LAST_COMMIT_MESSAGE" value="Correção no login do sistema, que verifica se a conta existe antes de redirecionar para a tela inicial, ou informa que a conta não foi encontrada, além de adição de validação de campo vazio na tela de login; configuração para criar usuário &quot;admin&quot; caso o mesmo não exista na base ao iniciar o sistema." />
+    <MESSAGE value="Correção para o Heroku." />
+    <option name="LAST_COMMIT_MESSAGE" value="Correção para o Heroku." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
