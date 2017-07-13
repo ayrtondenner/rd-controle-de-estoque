@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
-  root 'main#login'
   resources :pedidos
+  root 'main#login'
   resources :produtos
   resources :fornecedores
   resources :clientes

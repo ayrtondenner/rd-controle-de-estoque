@@ -3,7 +3,9 @@
 one:
   codigo: 1
   cliente: one
+  produto: one
 
 two:
   codigo: 1
   cliente: two
+  produto: two

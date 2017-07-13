@@ -7,7 +7,7 @@ class MainController < ApplicationController
 
   end
 
-  def verifica_usuario()
+  def verifica_usuario
     username = params[:username].to_s
     password = params[:password].to_s
 

@@ -39,45 +39,28 @@ ActiveRecord::Schema.define(version: 20170713030339) do
     t.datetime "updated_at", null: false
   end
 
-  create_table "humen", force: :cascade do |t|
-    t.string "name"
-    t.string "surname"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-  end
-
-  create_table "links", force: :cascade do |t|
-    t.string "guid"
-    t.string "profile"
-    t.string "media_url"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-  end
-
   create_table "pedidos", force: :cascade do |t|
     t.integer "codigo"
+    t.integer "quantidade"
     t.bigint "cliente_id"
+    t.bigint "produto_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.index ["cliente_id"], name: "index_pedidos_on_cliente_id"
+    t.index ["produto_id"], name: "index_pedidos_on_produto_id"
   end
 
   create_table "produtos", force: :cascade do |t|
     t.integer "codigo"
     t.string "nome"
+    t.integer "quantidade"
     t.bigint "fornecedor_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.index ["fornecedor_id"], name: "index_produtos_on_fornecedor_id"
   end
 
-  create_table "users", force: :cascade do |t|
-    t.string "name"
-    t.string "cpf"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-  end
-
   add_foreign_key "pedidos", "clientes"
+  add_foreign_key "pedidos", "produtos"
   add_foreign_key "produtos", "fornecedores"
 end

@@ -10,6 +10,7 @@ class PedidosController < ApplicationController
   # GET /pedidos/1
   # GET /pedidos/1.json
   def show
+    @clientes = Cliente.all
     @produtos = Produto.all
   end
 
@@ -30,6 +31,11 @@ class PedidosController < ApplicationController
   # POST /pedidos.json
   def create
     @pedido = Pedido.new(pedido_params)
+
+    produto = Produto.find_by_id(@pedido.produto.id)
+    produto.quantidade -= @pedido.quantidade
+
+    produto.save()
 
     respond_to do |format|
       if @pedido.save
@@ -67,13 +73,13 @@ class PedidosController < ApplicationController
   end
 
   private
-    # Use callbacks to share common setup or constraints between actions.
-    def set_pedido
-      @pedido = Pedido.find(params[:id])
-    end
+  # Use callbacks to share common setup or constraints between actions.
+  def set_pedido
+    @pedido = Pedido.find(params[:id])
+  end
 
-    # Never trust parameters from the scary internet, only allow the white list through.
-    def pedido_params
-      params.require(:pedido).permit(:codigo, :cliente_id)
-    end
+  # Never trust parameters from the scary internet, only allow the white list through.
+  def pedido_params
+    params.require(:pedido).permit(:codigo, :quantidade, :cliente_id, :produto_id)
+  end
 end
