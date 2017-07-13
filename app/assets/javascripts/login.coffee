@@ -16,6 +16,7 @@ $(document).on "turbolinks:load", ->
       password_field.val() == "" || password_field.val() == null)
         warningLabel.text("Informe todos os campos!")
     else
+      warningLabel.text("Logando...")
       $.ajax '/main/verifica_usuario',
         type: 'GET'
         dataType: 'json'
